@@ -21,7 +21,7 @@ export function HeroSection() {
       <div className="relative z-10 p-4 max-w-3xl mx-auto">
         <div className="mb-6">
           <Image
-            src="/placeholder.svg?height=150&width=150"
+            src="/avatar.jpg"
             alt="Nguyễn Đức Linh's Headshot"
             width={150}
             height={150}
