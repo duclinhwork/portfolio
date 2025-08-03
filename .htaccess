@@ -1,0 +1,4 @@
+# Handle case-insensitive URLs
+# Redirect /Portfolio/ to /portfolio/
+RewriteEngine On
+RewriteRule ^Portfolio/?(.*)$ /portfolio/$1 [R=301,L]

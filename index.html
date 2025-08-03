@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyen Duc Linh - Data Engineer & Analyst | Portfolio</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Data Engineer and Analyst with 2+ years of experience in ETL/ELT pipelines, analytics solutions, and machine learning. Specialized in Python, SQL, BigQuery, Apache Airflow, and AI applications.">
+    <meta name="keywords" content="Data Engineer, Data Analyst, Python, SQL, BigQuery, Apache Airflow, Machine Learning, ETL, ELT, Analytics, Vietnam, Ho Chi Minh City">
+    <meta name="author" content="Nguyen Duc Linh">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Nguyen Duc Linh - Data Engineer & Analyst">
+    <meta property="og:description" content="Experienced Data Engineer specializing in scalable ETL/ELT pipelines, analytics solutions, and AI applications at MoMo (M_Service).">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://duclinhwork.github.io/portfolio/">
+    <meta property="og:site_name" content="Nguyen Duc Linh Portfolio">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Nguyen Duc Linh - Data Engineer & Analyst">
+    <meta name="twitter:description" content="Data Engineer with expertise in Python, SQL, BigQuery, and machine learning applications.">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://duclinhwork.github.io/portfolio/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💼</text></svg>">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Duc Linh</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Nguyen Duc Linh</h1>
+                <h2>Data Engineer & Analyst</h2>
+                <p class="hero-description">
+                    Specialized in designing scalable ETL/ELT pipelines, developing analytics solutions, 
+                    and applying machine learning techniques to drive business outcomes.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">Learn More</a>
+                    <a href="mailto:your.email@example.com" class="btn btn-secondary">Contact Me</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/duclinhwork" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/your-profile" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="summary-container">
+                        <div class="summary-preview">
+                            <p>Data Engineer and Analyst with over two years of hands-on experience in the data and AI industry, specializing in designing scalable ETL/ELT pipelines, developing analytics solutions, and applying machine learning techniques to drive business outcomes...</p>
+                            <button class="expand-btn" onclick="toggleSummary()">
+                                <span class="expand-text">Read More</span>
+                                <i class="fas fa-chevron-down expand-icon"></i>
+                            </button>
+                        </div>
+                        <div class="summary-full" style="display: none;">
+                            <p>Data Engineer and Analyst with over two years of hands-on experience in the data and AI industry, specializing in designing scalable ETL/ELT pipelines, developing analytics solutions, and applying machine learning techniques to drive business outcomes. Expertise spans data processing, visualization, and AI-driven optimizations, with a proven track record of automating workflows, enhancing data governance, and delivering actionable insights that support strategic decision-making.</p>
+                            
+                            <p>Demonstrated ability to collaborate across cross-functional teams, from engineering and product to customer service and operations, while adapting to evolving business needs. Recognized for innovative contributions in generative AI, including award-winning projects that improved operational efficiency and user experiences.</p>
+                            
+                            <p>Committed to leveraging data for problem-solving, with a focus on multi-cloud environments and open-source tools to ensure flexibility and scalability.</p>
+                            
+                            <button class="expand-btn collapsed" onclick="toggleSummary()">
+                                <span class="expand-text">Show Less</span>
+                                <i class="fas fa-chevron-up expand-icon"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <!-- Current Role -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="job-header">
+                            <h3>Data Analyst, Customer Service Chatbot Team</h3>
+                            <span class="company">MoMo (M_Service)</span>
+                            <span class="duration">February 2025 – Present</span>
+                            <span class="location">Ho Chi Minh City, Vietnam</span>
+                        </div>
+                        <div class="job-description">
+                            <div class="description-preview">
+                                <p>In the Customer Service Chatbot team at MoMo, a leading fintech company in Vietnam, I focused on data analytics and AI applications to enhance customer support systems...</p>
+                                <button class="expand-btn" onclick="toggleJobDescription(this)">
+                                    <span class="expand-text">Read More</span>
+                                    <i class="fas fa-chevron-down expand-icon"></i>
+                                </button>
+                            </div>
+                            <div class="description-full" style="display: none;">
+                                <p>In the Customer Service Chatbot team at MoMo, a leading fintech company in Vietnam, I focused on data analytics and AI applications to enhance customer support systems. The team's primary objective was to optimize chatbot performance, reduce response errors, and improve overall customer satisfaction in a high-volume digital service environment.</p>
+                                
+                                <ul class="achievements">
+                                    <li>Conducted in-depth analysis of chatbot response errors, identifying root causes including data inconsistencies, NLP logic gaps, and process inefficiencies. Proposed and implemented systematic optimizations, such as refined training datasets and logic adjustments.</li>
+                                    <li>Developed real-time performance monitoring dashboards using Looker Studio, incorporating key metrics like response accuracy, resolution time, and user feedback trends.</li>
+                                    <li>Implemented automated alert systems for detecting data anomalies and emerging customer issues on an hourly basis, integrating tools like Apache Airflow for scheduling and n8n for workflow automation.</li>
+                                    <li>Applied advanced AI and NLP models for sentiment analysis, issue categorization, and content summarization of customer queries using Prompt Engineering, RAG, and LLMs.</li>
+                                    <li>Automated query scheduling, task distribution, and reporting processes to streamline operations, ensuring seamless integration with existing customer service workflows.</li>
+                                </ul>
+                                
+                                <button class="expand-btn collapsed" onclick="toggleJobDescription(this)">
+                                    <span class="expand-text">Show Less</span>
+                                    <i class="fas fa-chevron-up expand-icon"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Previous Role -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="job-header">
+                            <h3>Data Analyst Trainee, Corporate Data Office (CDO) Team</h3>
+                            <span class="company">MoMo (M_Service)</span>
+                            <span class="duration">July 2024 – January 2025</span>
+                            <span class="location">Ho Chi Minh City, Vietnam</span>
+                        </div>
+                        <div class="job-description">
+                            <div class="description-preview">
+                                <p>As part of MoMo's Corporate Data Office team, I concentrated on data engineering tasks to support enterprise-wide data infrastructure...</p>
+                                <button class="expand-btn" onclick="toggleJobDescription(this)">
+                                    <span class="expand-text">Read More</span>
+                                    <i class="fas fa-chevron-down expand-icon"></i>
+                                </button>
+                            </div>
+                            <div class="description-full" style="display: none;">
+                                <p>As part of MoMo's Corporate Data Office team, I concentrated on data engineering tasks to support enterprise-wide data infrastructure. The CDO team was responsible for building and maintaining robust data pipelines, ensuring data quality, and enabling analytics for various business units.</p>
+                                
+                                <ul class="achievements">
+                                    <li>Designed, developed, and maintained three end-to-end ETL pipelines using Apache Airflow and Google BigQuery, aggregating data from various sources such as user events, transaction logs, and external APIs.</li>
+                                    <li>Created a comprehensive Data Catalog for ETL tables by leveraging generative AI alongside code-based mapping of linear relationships.</li>
+                                    <li>Revamped existing dashboards and built new ones in Looker Studio for monitoring key performance indicators.</li>
+                                    <li>Participated in internal innovation challenges, developing a QA chatbot using LLMs, which earned 2nd place in MoMo's Master Challenge for GenAI.</li>
+                                </ul>
+                                
+                                <button class="expand-btn collapsed" onclick="toggleJobDescription(this)">
+                                    <span class="expand-text">Show Less</span>
+                                    <i class="fas fa-chevron-up expand-icon"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Internship -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="job-header">
+                            <h3>MIS Analyst Intern</h3>
+                            <span class="company">Collectius</span>
+                            <span class="duration">July 2023 – October 2023</span>
+                            <span class="location">Ho Chi Minh City, Vietnam</span>
+                        </div>
+                        <div class="job-description">
+                            <div class="description-preview">
+                                <p>At Collectius, a debt collection and management firm, I served as an MIS Analyst Intern, supporting operational data needs for call centers, finance, and risk management teams...</p>
+                                <button class="expand-btn" onclick="toggleJobDescription(this)">
+                                    <span class="expand-text">Read More</span>
+                                    <i class="fas fa-chevron-down expand-icon"></i>
+                                </button>
+                            </div>
+                            <div class="description-full" style="display: none;">
+                                <p>At Collectius, a debt collection and management firm, I served as an MIS Analyst Intern, supporting operational data needs for call centers, finance, and risk management teams. The role involved automating processes, building reporting tools, and analyzing data to optimize collections strategies.</p>
+                                
+                                <ul class="achievements">
+                                    <li>Developed APIs and tools for automating customer allocation to call center teams, reducing allocation processing time from hours to near real-time.</li>
+                                    <li>Engineered SSIS pipelines for daily data updates, automated report generation, and email distribution.</li>
+                                    <li>Designed and deployed Power BI dashboards for sales analysis, KPI tracking, and performance monitoring across five teams serving over 60 employees.</li>
+                                    <li>Created Python-based automation scripts for document retrieval, bank statement preprocessing, and fee calculations.</li>
+                                </ul>
+                                
+                                <button class="expand-btn collapsed" onclick="toggleJobDescription(this)">
+                                    <span class="expand-text">Show Less</span>
+                                    <i class="fas fa-chevron-up expand-icon"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">PySpark</span>
+                        <span class="skill-tag">Matplotlib</span>
+                        <span class="skill-tag">Selenium</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Data Engineering</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Apache Airflow</span>
+                        <span class="skill-tag">dbt</span>
+                        <span class="skill-tag">SSIS</span>
+                        <span class="skill-tag">GitLab/Git</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">n8n</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-chart-bar"></i> Analytics & Visualization</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Power BI</span>
+                        <span class="skill-tag">Looker Studio</span>
+                        <span class="skill-tag">Tableau</span>
+                        <span class="skill-tag">Excel</span>
+                        <span class="skill-tag">DAX</span>
+                        <span class="skill-tag">Power Query</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-cloud"></i> Cloud Platforms</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Google Cloud</span>
+                        <span class="skill-tag">Microsoft Azure</span>
+                        <span class="skill-tag">BigQuery</span>
+                        <span class="skill-tag">Cloud Functions</span>
+                        <span class="skill-tag">Data Factory</span>
+                        <span class="skill-tag">Synapse</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-robot"></i> ML/AI Frameworks</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Scikit-learn</span>
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">LLMs</span>
+                        <span class="skill-tag">RAG</span>
+                        <span class="skill-tag">Prompt Engineering</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Key Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Customer Service Chatbot Optimization</h3>
+                        <span class="project-company">MoMo</span>
+                    </div>
+                    <div class="project-description">
+                        <div class="description-preview">
+                            <p>Led data-driven analytics initiatives to refine the chatbot system. Conducted deep-dive analyses of error logs using LLMs for precise categorization...</p>
+                            <button class="expand-btn" onclick="toggleProjectDescription(this)">
+                                <span class="expand-text">Read More</span>
+                                <i class="fas fa-chevron-down expand-icon"></i>
+                            </button>
+                        </div>
+                        <div class="description-full" style="display: none;">
+                            <p>Led data-driven analytics initiatives to refine the chatbot system. Conducted deep-dive analyses of error logs using large language models (LLMs) for precise categorization and root cause identification, uncovering limitations such as incomplete contextual handling or ambiguous query interpretations.</p>
+                            
+                            <p>Proposed targeted improvements, including internal tool integrations for real-time transaction validation, service-specific knowledge base mapping, FAQ refinements to eliminate confusion, layered prompt engineering, and feedback loops for service design enhancements.</p>
+                            
+                            <p>Built real-time monitoring dashboards with automated alerts in Looker Studio and Apache Airflow, while integrating advanced AI techniques like RAG and LLMs for sentiment analysis, issue categorization, and content summarization.</p>
+                            
+                            <button class="expand-btn collapsed" onclick="toggleProjectDescription(this)">
+                                <span class="expand-text">Show Less</span>
+                                <i class="fas fa-chevron-up expand-icon"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">BigQuery</span>
+                        <span class="tech-tag">Apache Airflow</span>
+                        <span class="tech-tag">Looker Studio</span>
+                        <span class="tech-tag">n8n</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Promotion Marketing Platform</h3>
+                        <span class="project-company">MoMo</span>
+                    </div>
+                    <div class="project-description">
+                        <div class="description-preview">
+                            <p>Developed ETL pipelines aggregating multi-source data for user segmentation and performance tracking. Conducted analysis of event parameters...</p>
+                            <button class="expand-btn" onclick="toggleProjectDescription(this)">
+                                <span class="expand-text">Read More</span>
+                                <i class="fas fa-chevron-down expand-icon"></i>
+                            </button>
+                        </div>
+                        <div class="description-full" style="display: none;">
+                            <p>To support MoMo's marketing campaigns amid growing user data complexity, I developed ETL pipelines aggregating multi-source data for user segmentation and performance tracking.</p>
+                            
+                            <p>Additionally, conducted in-depth analysis of event parameters from user interactions, such as click events, conversion triggers, and behavioral signals, to uncover patterns and inefficiencies in product features.</p>
+                            
+                            <p>This analysis informed product improvements by highlighting areas like suboptimal user flows or underperforming elements, leading to targeted refinements that enhanced engagement and conversion rates.</p>
+                            
+                            <button class="expand-btn collapsed" onclick="toggleProjectDescription(this)">
+                                <span class="expand-text">Show Less</span>
+                                <i class="fas fa-chevron-up expand-icon"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">BigQuery</span>
+                        <span class="tech-tag">Looker Studio</span>
+                        <span class="tech-tag">Generative AI</span>
+                        <span class="tech-tag">Google Cloud Storage</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Product Sales Prediction</h3>
+                        <span class="project-company">Personal Project</span>
+                        <a href="https://github.com/duclinhwork/ShopeeSalesForecasting" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <div class="project-description">
+                        <div class="description-preview">
+                            <p>Built ML models to predict daily product sales on Shopee. Collected data via web scraping, performed feature engineering...</p>
+                            <button class="expand-btn" onclick="toggleProjectDescription(this)">
+                                <span class="expand-text">Read More</span>
+                                <i class="fas fa-chevron-down expand-icon"></i>
+                            </button>
+                        </div>
+                        <div class="description-full" style="display: none;">
+                            <p>Addressing e-commerce forecasting challenges where variable sales data impacted inventory decisions, I built ML models to predict daily product sales on Shopee.</p>
+                            
+                            <p>Collected data via web scraping, performed feature engineering, and integrated PhoBERT for review sentiment analysis. This enhanced prediction reliability over baselines, offering practical value for retailers in demand planning.</p>
+                            
+                            <button class="expand-btn collapsed" onclick="toggleProjectDescription(this)">
+                                <span class="expand-text">Show Less</span>
+                                <i class="fas fa-chevron-up expand-icon"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Selenium</span>
+                        <span class="tech-tag">XGBoost</span>
+                        <span class="tech-tag">Random Forest</span>
+                        <span class="tech-tag">LSTM</span>
+                        <span class="tech-tag">PhoBERT</span>
+                        <span class="tech-tag">Python</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Cloud ETL for Ad Data Processing</h3>
+                        <span class="project-company">Personal Project</span>
+                        <a href="https://github.com/duclinhwork/Cloud-ETL-for-Ad-Data-Processing" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <div class="project-description">
+                        <div class="description-preview">
+                            <p>Created event-driven ETL workflows on Google Cloud to process and load data into BigQuery with transformations...</p>
+                            <button class="expand-btn" onclick="toggleProjectDescription(this)">
+                                <span class="expand-text">Read More</span>
+                                <i class="fas fa-chevron-down expand-icon"></i>
+                            </button>
+                        </div>
+                        <div class="description-full" style="display: none;">
+                            <p>In the scenario of fragmented ad performance data causing reporting delays, I created event-driven ETL workflows on Google Cloud to process and load data into BigQuery with transformations like deduplication and aggregation.</p>
+                            
+                            <p>Developed a Flask API for real-time reporting with external integrations. This resolved inefficiencies in ad analytics, supporting optimized campaign spending and performance evaluation.</p>
+                            
+                            <button class="expand-btn collapsed" onclick="toggleProjectDescription(this)">
+                                <span class="expand-text">Show Less</span>
+                                <i class="fas fa-chevron-up expand-icon"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Google Cloud Functions</span>
+                        <span class="tech-tag">BigQuery</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Flask API</span>
+                        <span class="tech-tag">Google Cloud Storage</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education & Certifications</h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Master's in Information Systems</h3>
+                        <p class="institution">University of Information Technology (UIT) - Vietnam National University</p>
+                        <p class="duration">2024 – Present</p>
+                        <p class="location">Ho Chi Minh City</p>
+                    </div>
+                </div>
+
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Bachelor's in Data Engineering</h3>
+                        <p class="institution">Ho Chi Minh City University of Technology and Education (UTE)</p>
+                        <p class="duration">2020 – 2024</p>
+                        <p class="location">Ho Chi Minh City</p>
+                        <p class="gpa">GPA: 8.01 (Distinction)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="certifications">
+                <h3>Certifications & Awards</h3>
+                <div class="cert-grid">
+                    <div class="cert-item">
+                        <i class="fas fa-trophy"></i>
+                        <span>1st Place, MIAI Contest (AI Application Competition)</span>
+                    </div>
+                    <div class="cert-item">
+                        <i class="fas fa-trophy"></i>
+                        <span>2nd Place, MoMo's Internal Master Challenge (GenAI Innovation)</span>
+                    </div>
+                    <div class="cert-item">
+                        <i class="fas fa-certificate"></i>
+                        <span>AWS Academy Graduate - AWS Academy Cloud Foundations (2022)</span>
+                    </div>
+                    <div class="cert-item">
+                        <i class="fas fa-certificate"></i>
+                        <span>HackerRank: SQL (Advanced), Problem Solving (Intermediate)</span>
+                    </div>
+                    <div class="cert-item">
+                        <i class="fas fa-certificate"></i>
+                        <span>Coursera: Marketing Analytics Foundation, Data Science Math Skills</span>
+                    </div>
+                    <div class="cert-item">
+                        <i class="fas fa-language"></i>
+                        <span>English Proficiency: VSTEP B1 (Level 3/6)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Nguyen Duc Linh. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="https://github.com/duclinhwork" target="_blank">GitHub</a>
+                    <a href="mailto:your.email@example.com">Email</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

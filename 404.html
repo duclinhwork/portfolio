@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <script>
+        // Handle case-insensitive URL redirects
+        const currentPath = window.location.pathname;
+        const searchParams = window.location.search;
+        const hash = window.location.hash;
+        
+        // Check if the URL contains /Portfolio/ (uppercase P)
+        if (currentPath.includes('/Portfolio/')) {
+            const newPath = currentPath.replace('/Portfolio/', '/portfolio/');
+            window.location.replace(window.location.origin + newPath + searchParams + hash);
+        } else if (currentPath === '/Portfolio') {
+            window.location.replace(window.location.origin + '/portfolio/' + searchParams + hash);
+        } else {
+            // If not a Portfolio redirect, go to main page
+            window.location.replace(window.location.origin + '/portfolio/');
+        }
+    </script>
+</head>
+<body>
+    <div style="display: flex; justify-content: center; align-items: center; height: 100vh; font-family: Arial, sans-serif;">
+        <div style="text-align: center;">
+            <h2>Redirecting...</h2>
+            <p>If you are not redirected automatically, <a href="/portfolio/">click here</a>.</p>
+        </div>
+    </div>
+</body>
+</html>
